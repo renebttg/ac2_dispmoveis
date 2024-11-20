@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F5F5F5"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+
+    <TextView
+        android:id="@+id/textViewRa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RA: 123456"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#333333" />
+
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome: João da Silva"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CEP: 12345-678"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewRua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua: Avenida Central"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complemento: Bloco A, Apt 202"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bairro: Centro"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cidade: São Paulo"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewUf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UF: SP"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
